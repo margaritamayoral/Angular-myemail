@@ -40,7 +40,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.3/ui-bootstrap.min.js"></script>
 		<script src="js/MyApp.js"></script>
-		<script src="js/TestControllers.js"></script>
+		<script src="js/TestController.js"></script>
 		
 		<link rel="stylesheet" href="https://gitcdn.xyz/repo/angular/bower-material/v0.11.0/angular-material.css">
 		<link rel="stylesheet" href="https://www.delmarcargo.com/css/bootstrap.css" type="text/css" media="screen">
@@ -53,13 +53,16 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 		
 		</head>
-    <body layout="column" ng-controller="" class="section-material-design md-accent qp-ui qp-ui-mask">
-		<div ng-controller="InboxCtrl">
-		</div>
-		<div ng-controller="TestCtrl">
+    <body layout="column"  class="section-material-design md-accent qp-ui qp-ui-mask">
+		
+		<!-- <div ng-controller="TestCtrl">
 			<h1>{{Title}}</h1>
-			<input type="text" ng-model="title">
-		</div>
-	    
+			<input type="text" ng-model="title" placeholder="Write a title here">
+		</div> -->
+		<main class="main" role="main">
+			<div class="wrapper">
+				<div ui-view></div>
+			</div>
+		</main>
     </body>
 </html>
