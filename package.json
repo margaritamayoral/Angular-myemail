@@ -1,0 +1,18 @@
+{
+  "name": "myemail",
+  "description": "Angular email app",
+  "version": "0.0.0",
+  "homepage": "https://github.com/1012/Angular-myemail",
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "karma": "~0.12.0",
+    "karma-jasmine": "^0.3.6"
+  },
+  "url": "margaritamayoralvilla.com",
+  "email": "margaritamayoralvilla@gmail.com",
+  "author": "Margarita Mayoral Villa",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1012/Angular-myemail.git"
+  }
+}
